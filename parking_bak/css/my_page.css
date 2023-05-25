@@ -1,0 +1,222 @@
+body {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.4;
+  font-family: 'Oswald', sans-serif;
+  background-color: #FCDC9F;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+
+/* header */
+
+header{  
+}
+
+header .inner{
+  height: 90px;
+  margin: 0 auto;
+  position :relative;
+}
+
+header .logo{
+  height: 65px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 40px;
+  margin: auto 0;
+}
+
+header .list{
+  display :flex;
+  position: absolute;
+  width: 650px;
+  top:0px;
+  bottom:0;
+  right:0px;
+  padding: 0 60px;
+  margin: auto;
+
+}
+
+header .list ul.menu{
+  background-color: beige;
+  position:relative;
+  display: flex;
+  margin:auto;
+  top:0;
+  bottom:0;
+  border-radius: 40px;
+}
+
+header .list ul.menu li{
+  border-radius: 40px;
+  position:relative;
+  margin:auto;
+  top:0;
+  bottom:0;
+}
+
+header .list ul.menu li a{
+  font-size: 20px;
+  padding: 16px 25px;
+  display: block;
+  color: #D12A14;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+header .list ul.menu li a:hover{
+  color:black;
+}
+
+header .list a.my_page{
+  text-align: center;
+  background-color:white;
+  color: #D12A14;
+  font-weight:bold;
+  font-size:20px;
+  display:block;
+  padding: 16px 25px;
+  position: relative;
+  width: 100px;
+  height:30px;
+  right: 0;
+  margin: auto;
+  border-radius:40px;
+}
+
+/* section*/
+
+section{
+   animation: fade 0.3s linear;
+
+}
+
+section .inner{
+  background-color:beige;
+  border-top-color: black;
+  border-top-right-radius: 500px;
+  border-top-left-radius: 500px;
+  border-top-width: 10px;
+  display: flex;
+  height:700px;
+  margin: 0 auto;
+  position :relative;
+}
+
+section .box1{
+  position:relative;
+  width:700px;
+  text-align: center;
+  font-size:35px;
+  font-weight: bold;
+}
+
+section .box1 .car{
+  position:absolute;
+  width:400px;
+  height:400px;
+  top:100px;
+  right:0;
+  left:0;
+  margin:auto;
+}
+
+section .box1 .number{
+  width:400px;
+  background-color:beige;
+  border-radius: 40px;
+  color:#D12A14;
+  bottom: 80px;
+  right:0;
+  left:0;
+  position:absolute;
+  margin:auto;
+  font-family: 'Jua', sans-serif;
+}
+
+section .box2{
+  border-style: solid;
+  border-color: #FCDC9F;
+  border-width: 0 0 0 8px;
+  font-size:35px;
+  font-weight: bold;
+  position:relative;
+  width:700px;
+}
+
+section .box2 p{
+  font-family: 'Jua', sans-serif;
+  color:#5a5757;
+}
+
+section .box2 ul.pay_information li ul{
+  padding: 27px 50px;
+  display: flex;
+}
+
+section .box2 ul.pay_information{
+  width:550px;
+  height:auto;
+  margin:auto;
+  position:relative;
+  top:125px;
+}
+
+section .box2 ul.pay_information li ul li{
+  color:#D12A14;
+}
+
+
+section .box2 button.check{
+  background-color:#FCDC9F;
+  border-radius: 40px;
+  border-width: 0;
+  color:#D12A14;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  position: absolute;
+  width:300px;
+  height:60px;
+  bottom:90px;
+  right:0;
+  left:0;
+  margin:auto;
+  overflow: hidden;
+  z-index: +1;
+  cursor: pointer;
+}
+
+section .box2 button.check:before{
+  content:"";
+  position:absolute;
+  background-color: white;
+  width:100%;
+  height: 100%;
+  top:0;
+  right:100%;
+  transition: all 0.4s;
+  border-radius: 40px;
+  z-index: -1;
+
+}
+
+section .box2 button.check:hover:before{
+  transform: translateX(100%);
+}
+
+@keyframes fade{
+  0%{opacity: 0;}
+  40%{opacity: 0;}
+  80%{opacity: 40;}
+  90%{opacity: 80;}
+  100%{opacity: 100;}
+}

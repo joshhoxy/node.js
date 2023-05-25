@@ -1,0 +1,397 @@
+body {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.4;
+  font-family: 'Oswald', sans-serif;
+  background-color: beige;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+
+/* header */
+
+header{  
+}
+
+header .inner{
+  height: 90px;
+  margin: 0 auto;
+  position :relative;
+}
+
+header .logo{
+  height: 65px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 40px;
+  margin: auto 0;
+}
+
+header .list{
+  display :flex;
+  position: absolute;
+  width: 650px;
+  top:0px;
+  bottom:0;
+  right:0px;
+  padding: 0 60px;
+  margin: auto;
+
+}
+
+header .list ul.menu{
+  background-color:#FCDC9F;
+  position:relative;
+  display: flex;
+  margin:auto;
+  top:0;
+  bottom:0;
+  border-radius: 40px;
+}
+
+header .list ul.menu li{
+  border-radius: 40px;
+  position:relative;
+  margin:auto;
+  top:0;
+  bottom:0;
+}
+
+header .list ul.menu li a{
+  font-size: 20px;
+  padding: 16px 25px;
+  display: block;
+  color: #D12A14;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+header .list ul.menu li a:hover{
+  color:black;
+}
+
+header .list a.my_page{
+  text-align: center;
+  background-color:white;
+  color: #D12A14;
+  font-weight:bold;
+  font-size:20px;
+  display:block;
+  padding: 16px 25px;
+  position: relative;
+  width: 100px;
+  height:30px;
+  right: 0;
+  margin: auto;
+  border-radius:40px;
+}
+
+/* section */
+
+section{
+
+}
+
+section .inner{
+  height:655px;
+  position:relative;
+
+}
+
+section .inner p{
+  color:#D12A14;
+  font-weight: bold;
+  background-color:#FCDC9F;
+  font-size:30px;
+  width:100px;
+  height:40px;
+  text-align: center;
+  position:absolute;
+  border-radius: 20px;
+  padding:10px 12px;
+  margin: auto;
+  top:70px;
+  left:220px;
+}
+
+section .inner .A{
+
+}
+
+section .inner .A table{
+  font-size: 20px;
+  padding:20px 30px;
+  border-style: solid;
+  border-radius: 20px;
+  width : 350px;
+  height: 350px;
+  position:absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:100px;
+
+
+
+}
+
+section .inner .A table tr{
+  border-style: solid;
+  border-width:0;
+
+}
+
+section .inner .A table td{
+  background-color: #FCDC9F;;
+  position:relative;
+  text-align: center;
+  border-style: solid;
+  border-radius: 0px;
+  margin: 20px 10px;
+}
+
+section .inner .A table button{
+  background-color: #3CB371;
+  height:30px;
+  width:30px;
+  border-radius: 100%;
+  border-width: 0;
+  position: absolute;
+  margin:auto;
+  right:0;
+  left:0;
+  bottom:20px;
+  transition: all 0.2s;
+}
+
+section .inner .A table button:hover{
+  background-color: #90EE90;
+  cursor:pointer;
+}
+
+section .inner .B p{
+  color:#D12A14;
+  font-weight: bold;
+  background-color:#FCDC9F;
+  font-size:30px;
+  width:100px;
+  height:40px;
+  text-align: center;
+  position:absolute;
+  border-radius: 20px;
+  padding:10px 12px;
+  margin: auto;
+  top:70px;
+  left:0;
+  right:0;
+}
+
+section .inner .B{
+
+}
+
+section .inner .B table{
+  font-size: 20px;
+  padding:20px 30px;
+  border-style: solid;
+  border-radius: 20px;
+  width : 350px;
+  height: 350px;
+  position:absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+
+
+
+}
+
+section .inner .B table tr{
+  border-style: solid;
+  border-width:0;
+
+}
+
+section .inner .B table td{
+  background-color: #FCDC9F;;
+  position:relative;
+  text-align: center;
+  border-style: solid;
+  border-radius: 0px;
+  margin: 20px 10px;
+}
+
+section .inner .B table button{
+  background-color: #3CB371;
+  height:30px;
+  width:30px;
+  border-radius: 100%;
+  border-width: 0;
+  position: absolute;
+  margin:auto;
+  right:0;
+  left:0;
+  bottom:20px;
+  transition: all 0.2s;
+}
+
+section .inner .B table button:hover{
+  background-color: #90EE90;
+  cursor:pointer;
+}
+
+
+section .inner .C{
+
+}
+
+section .inner .C p{
+  color:#D12A14;
+  font-weight: bold;
+  background-color:#FCDC9F;
+  font-size:30px;
+  width:100px;
+  height:40px;
+  text-align: center;
+  position:absolute;
+  border-radius: 20px;
+  padding:10px 12px;
+  margin:auto;
+  top:70px;
+  left:1150px;
+}
+
+section .inner .C table{
+  font-size: 20px;
+  padding:20px 30px;
+  border-style: solid;
+  border-radius: 20px;
+  width : 350px;
+  height: 350px;
+  position:absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  right:100PX;
+
+
+
+}
+
+section .inner .C table tr{
+  border-style: solid;
+  border-width:0;
+
+}
+
+section .inner .C table td{
+  background-color: #FCDC9F;;
+  position:relative;
+  text-align: center;
+  border-style: solid;
+  border-radius: 0px;
+  margin: 20px 10px;
+}
+
+section .inner .C table button{
+  background-color: #3CB371;
+  height:30px;
+  width:30px;
+  border-radius: 100%;
+  border-width: 0;
+  position: absolute;
+  margin:auto;
+  right:0;
+  left:0;
+  bottom:20px;
+  transition: all 0.2s;
+}
+
+section .inner .C table button:hover{
+  background-color: #90EE90;
+  cursor:pointer;
+}
+
+#pop{
+  display:none;
+}
+
+#pop .background{
+  width:100vw;
+  height:100vh;
+  background-color: black;
+  position:absolute;
+  top:0; bottom:0; right:0; left:0;
+  margin:auto;
+  opacity: 0.6;
+}
+
+#pop .inner{
+  background-color:#FCDC9F;
+  width:450px;
+  height:110px;
+  position:absolute;
+  top:0; bottom:0; right:0; left:0;
+  margin:auto;
+  border-radius: 10px;
+
+}
+
+#pop .inner p{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  position:absolute;
+  width:370px;
+  height:40px;
+  top:10px; right:0; left:0;
+  margin:auto;
+}
+
+#pop .inner button.yes{
+  font-family: 'Oswald', sans-serif;
+  font-size:16px;
+  width:50px;
+  height:40px;
+  padding: 3px 10px;
+  font-weight: bold;
+  color:#D12A14;
+  border-radius: 20%;
+  border-width: 0;
+  background-color: beige;
+  position:absolute;
+  bottom:10px; left:170px;
+  margin:auto;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+#pop .inner button.no{
+  font-family: 'Oswald', sans-serif;
+  font-size:16px;
+  width:50px;
+  height:40px;
+  padding: 3px 10px;
+  font-weight: bold;
+  color:#D12A14;
+  border-radius: 20%;
+  border-width: 0;
+  background-color: beige;
+  position:absolute;
+  bottom:10px; right:170px;
+  margin:auto;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#pop .inner button:hover{
+  color:black;
+}
+
